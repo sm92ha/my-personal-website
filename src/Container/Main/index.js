@@ -9,7 +9,6 @@ export default class Main extends Component {
         } else {
             this.setState({ isEnglish: true })
         }
-        console.log(this.props.location)
     }
     componentWillMount = () => {
         this.find();
