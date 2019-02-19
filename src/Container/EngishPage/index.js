@@ -761,7 +761,7 @@ export default class EnglishPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-experience-header">
-                        <p>October 2014 - Present</p>
+                        <p>October 2018 - Present</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
@@ -796,7 +796,7 @@ export default class EnglishPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-experience-header">
-                        <p>January 2013 - February 2018</p>
+                        <p>January 2013 - February 2016</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}

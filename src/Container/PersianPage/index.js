@@ -163,7 +163,7 @@ export default class PerianPage extends Component {
                           <div className="col-sm-4">
                             <strong className="text-uppercase">تلفن:</strong>
                           </div>
-                          <div className="col-sm-8">+98933-991-9214</div>
+                          <div className="col-sm-8" style={{direction:"ltr" , textAlign:"right"}}>+98933-991-9214</div>
                         </div>
                         <div className="row mt-3 fa-font">
                           <div className="col-sm-4">
@@ -756,14 +756,14 @@ export default class PerianPage extends Component {
                       data-aos-offset="50"
                       data-aos-duration="500"
                     >
-                      <div className="card-body cc-experience-header">
-                        <p>October 2014 - Present</p>
+                      <div className="card-body cc-experience-header fa-font">
+                        <p>آبان 1397 - حال حاضر</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
                             href="http://www.zaravand.com"
                           >
-                            Zaravand
+                           شرکت کامپیوتری زراوند
                           </a>
                         </div>
                       </div>
@@ -774,10 +774,10 @@ export default class PerianPage extends Component {
                       data-aos-offset="50"
                       data-aos-duration="500"
                     >
-                      <div className="card-body">
-                        <div className="h5">FrontEnd Developer</div>
+                      <div className="card-body fa-font">
+                        <div className="h5">توسعه دهنده فرانت اند</div>
                         <p>
-                          Coding With ReactJS Technology And Using Restfull Api
+                         برنامه نویسی با تکنولوژی ReactJS و با استفاده از RestAPI
                         </p>
                       </div>
                     </div>
@@ -791,14 +791,14 @@ export default class PerianPage extends Component {
                       data-aos-offset="50"
                       data-aos-duration="500"
                     >
-                      <div className="card-body cc-experience-header">
-                        <p>January 2013 - February 2018</p>
+                      <div className="card-body cc-experience-header fa-font">
+                        <p>دی 1391 - فروردین 1395</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
                             href="http://www.zaravand.com"
                           >
-                            Zaravand
+                            شرکت کامپیوتری زراوند
                           </a>
                         </div>
                       </div>
@@ -809,18 +809,17 @@ export default class PerianPage extends Component {
                       data-aos-offset="50"
                       data-aos-duration="500"
                     >
-                      <div className="card-body">
-                        <div className="h5">Software Support</div>
+                      <div className="card-body fa-font">
+                        <div className="h5">مسئول پشتیبانی نرم افزار</div>
                         <p>
-                          - Company Software Products Support <br />
-                          - Hardware Support Inside The Company
+                          - پشتیبانی محصولات تولید شده در شرکت <br />
+                          - پشتیبانی سخت افزاری داخل شرکت
                           <br />
-                          - Server And Network Admin Inside The Company
+                          - مدیریت سرور و شبکه داخلی شرکت
                           <br />
-                          - Customer Relationship Management to Fix Software
-                          Problems
+                          - مدیریت ارتباط با مشتریان و رفع اشکالات نرم افزاری
                           <br />
-                          - Training Clients To Work With Software <br />
+                          - آموزش نرم افزارها به مشتریان <br />
                         </p>
                       </div>
                     </div>
@@ -834,14 +833,14 @@ export default class PerianPage extends Component {
                       data-aos-offset="50"
                       data-aos-duration="500"
                     >
-                      <div className="card-body cc-experience-header">
-                        <p>January 2016 - May 2018</p>
+                      <div className="card-body cc-experience-header fa-font">
+                        <p>دی 1394 - تیر 1397</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
                             href="http://www.bestooran.com"
                           >
-                            Bestooran
+                           استارتاپ بستوران
                           </a>
                         </div>
                       </div>
@@ -852,14 +851,13 @@ export default class PerianPage extends Component {
                       data-aos-offset="50"
                       data-aos-duration="500"
                     >
-                      <div className="card-body">
-                        <div className="h5">Founder and Manager</div>
+                      <div className="card-body fa-font">
+                        <div className="h5">بنیانگذار و مدیر</div>
                         <p>
-                          - Analysis Of The Whole Project And Market
+                          - تحلیل کامل پروژه و بازار
                           <br />
-                          - Create A Team To Develop BackEnd ,FrontEnd , Android
-                          App And iOS App <br />
-                          - Design General Business Strategy <br />
+                          - ساخت تیم جهت تولید سایت و نرم افزارهای موبایل  <br />
+                          - طراحی استراتژی کلی کسب و کار <br />
                         </p>
                       </div>
                     </div>
@@ -873,14 +871,14 @@ export default class PerianPage extends Component {
                       data-aos-offset="50"
                       data-aos-duration="500"
                     >
-                      <div className="card-body cc-experience-header">
-                        <p>February 2016 - August 2016</p>
+                      <div className="card-body cc-experience-header fa-font">
+                        <p>فروردین 1395 - شهریور 1395</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
                             href="http://www.zaravand.com"
                           >
-                            Zaravand
+                            شرکت کامپیوتری زراوند
                           </a>
                         </div>
                       </div>
@@ -891,11 +889,11 @@ export default class PerianPage extends Component {
                       data-aos-offset="50"
                       data-aos-duration="500"
                     >
-                      <div className="card-body">
-                        <div className="h5">Full Stack Developer</div>
+                      <div className="card-body fa-font">
+                        <div className="h5">برنامه نویس فول استک</div>
                         <p>
-                          - BackEnd Develop (Sql Server , Asp.Net)
-                          <br />- FrontEnd Develop (HTML , CSS, JavaScript ,
+                          - برنامه نویسی بک اند (Sql Server , Asp.Net)
+                          <br />- برنامه نویسی فرانت اند (HTML , CSS, JavaScript ,
                           JQuery)
                         </p>
                       </div>
@@ -910,14 +908,14 @@ export default class PerianPage extends Component {
                       data-aos-offset="50"
                       data-aos-duration="500"
                     >
-                      <div className="card-body cc-experience-header">
-                        <p>June 2017 - February 2018</p>
+                      <div className="card-body cc-experience-header fa-font">
+                        <p>تیر 1396 - فروردین 1397</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
                             href="http://www.zaravand.com"
                           >
-                            Zaravand
+                            شرکت کامپیوتری زراوند
                           </a>
                         </div>
                       </div>
@@ -928,10 +926,10 @@ export default class PerianPage extends Component {
                       data-aos-offset="50"
                       data-aos-duration="500"
                     >
-                      <div className="card-body">
-                        <div className="h5">Project Implementation </div>
+                      <div className="card-body fa-font">
+                        <div className="h5">مسئول اجرای پروژه </div>
                         <p>
-                          Responsible For Implementation Of A Home Service Website Project
+                        مسئولیت اجرای پروژه خدمات خانگی به سفارش سازمان بهزیستی
                         </p>
                       </div>
                     </div>
@@ -945,14 +943,14 @@ export default class PerianPage extends Component {
                       data-aos-offset="50"
                       data-aos-duration="500"
                     >
-                      <div className="card-body cc-experience-header">
-                        <p>June 2012 - January 2013</p>
+                      <div className="card-body cc-experience-header fa-font">
+                        <p>تیر 1391 - دی 1391</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
                             href="http://www.brc-co.ir"
                           >
-                            BRC Co.
+                            بهارستان رایان
                           </a>
                         </div>
                       </div>
@@ -963,12 +961,12 @@ export default class PerianPage extends Component {
                       data-aos-offset="50"
                       data-aos-duration="500"
                     >
-                      <div className="card-body">
-                        <div className="h5">Hardware Technician</div>
+                      <div className="card-body fa-font">
+                        <div className="h5">کارشناس سخت افزار</div>
                         <p>
-                          - Check And Fix Computer Problems<br />
-                          - Setting Up Computer Networks<br />
-                          - Setting up and Deploying Servers In Networks<br />
+                          - بررسی و رفع مشکلات سیستم های کامپیوتری<br />
+                          - راه اندازی شبکه های کامپیوتری<br />
+                          - آماده سازی و استقرار سرورها در شبکه<br />
                         </p>
                       </div>
                     </div>
@@ -978,7 +976,7 @@ export default class PerianPage extends Component {
             </div>
             <div className="section">
               <div className="container cc-education">
-                <div className="h4 text-center mb-4 title">Education</div>
+                <div className="h4 text-center mb-4 title fa-font">تحصیلات</div>
                 {/* <div className="card">
                   <div className="row">
                     <div
@@ -1020,7 +1018,7 @@ export default class PerianPage extends Component {
                     </div>
                   </div>
                 </div> */}
-                <div className="card">
+                <div className="card fa-font">
                   <div className="row">
                     <div
                       className="col-md-3 bg-primary"
@@ -1029,8 +1027,8 @@ export default class PerianPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-education-header">
-                        <p>2010 - 2014</p>
-                        <div className="h5">Bachelor's Degree</div>
+                        <p>1389 - 1393</p>
+                        <div className="h5">مدرک کارشناسی</div>
                       </div>
                     </div>
                     <div
@@ -1040,20 +1038,20 @@ export default class PerianPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body">
-                        <div className="h5">Information Technology Engineering</div>
+                        <div className="h5">مهندسی فناوری اطلاعات</div>
                         <p className="category">
-                          Kerman Institute of Higher Education
+                          موسسه آموزش عالی کرمان
                         </p>
                         <p>
-                          Courses : <br />
-                          - Strategic Management<br />
-                          - Project Management<br />
-                          - Programming Basics<br />
-                          - Artificial Intelligence<br />
-                          - Human Resources Management<br />
-                          - Computer Networks<br />
-                          - Advanced programming<br />
-                          - Algorithm Design <br />
+                          برخی دروس : <br />
+                          - مدیریت استراتژیک<br />
+                          - مدیریت پروژه<br />
+                          - مبانی برنامه نویسی<br />
+                          - هوش مصنوعی<br />
+                          - مدیریت منایع انسانی<br />
+                          - شبکه های کامپیوتری<br />
+                          - برنامه نویسی پیشرفته<br />
+                          - طراحی الگوریتم<br />
                         </p>
                       </div>
                     </div>
@@ -1206,8 +1204,8 @@ export default class PerianPage extends Component {
                   <div className="cc-contact">
                     <div className="row">
                       <div className="col-md-9">
-                        <div className="card mb-0" data-aos="zoom-in">
-                          <div className="h4 text-center title">Contact Me</div>
+                        <div className="card mb-0 fa-font" data-aos="zoom-in">
+                          <div className="h4 text-center title">ارتباط با من</div>
                           <div className="row">
                             <div className="col-md-6">
                               <div className="card-body">
@@ -1215,20 +1213,21 @@ export default class PerianPage extends Component {
                                   action="https://formspree.io/sm92ha@gmail.com"
                                   method="POST"
                                 >
-                                  <div className="p pb-3">
-                                    <strong>Feel free to contact me </strong>
+                                  <div className="p pb-3 fa-font">
+                                    <strong> راه های ارتباطی</strong>
                                   </div>
-                                  <div className="row mb-3">
+                                  <div className="row mb-3 " >
                                     <div className="col">
-                                      <div className="input-group">
+                                      <div className="input-group" style={{direction:"ltr"}}>
                                         <span className="input-group-addon">
                                           <i className="fa fa-user-circle" />
                                         </span>
                                         <input
+                                        style={{direction:"rtl"}}
                                           className="form-control"
                                           type="text"
                                           name="name"
-                                          placeholder="Name"
+                                          placeholder="نام"
                                           required="required"
                                         />
                                       </div>
@@ -1236,15 +1235,16 @@ export default class PerianPage extends Component {
                                   </div>
                                   <div className="row mb-3">
                                     <div className="col">
-                                      <div className="input-group">
+                                      <div className="input-group " style={{direction:"ltr"}}>
                                         <span className="input-group-addon">
                                           <i className="fa fa-file-text" />
                                         </span>
                                         <input
+                                        style={{direction:"rtl"}}
                                           className="form-control"
                                           type="text"
                                           name="Subject"
-                                          placeholder="Subject"
+                                          placeholder="موضوع"
                                           required="required"
                                         />
                                       </div>
@@ -1252,15 +1252,16 @@ export default class PerianPage extends Component {
                                   </div>
                                   <div className="row mb-3">
                                     <div className="col">
-                                      <div className="input-group">
+                                      <div className="input-group" style={{direction:"ltr"}}>
                                         <span className="input-group-addon">
                                           <i className="fa fa-envelope" />
                                         </span>
                                         <input
+                                        style={{direction:"rtl"}}
                                           className="form-control"
                                           type="email"
                                           name="_replyto"
-                                          placeholder="E-mail"
+                                          placeholder="ایمیل"
                                           required="required"
                                         />
                                       </div>
@@ -1272,7 +1273,7 @@ export default class PerianPage extends Component {
                                         <textarea
                                           className="form-control"
                                           name="message"
-                                          placeholder="Your Message"
+                                          placeholder="متن پیام"
                                           required="required"
                                         />
                                       </div>
@@ -1284,7 +1285,7 @@ export default class PerianPage extends Component {
                                         className="btn btn-primary"
                                         type="submit"
                                       >
-                                        Send
+                                        ارسال
                                       </button>
                                     </div>
                                   </div>
@@ -1294,17 +1295,17 @@ export default class PerianPage extends Component {
                             <div className="col-md-6">
                               <div className="card-body">
                                 <p className="mb-0">
-                                  <strong>Location </strong>
+                                  <strong>محل سکونت </strong>
                                 </p>
                                 <p className="pb-2">
-                                  Kerman , Iran
+                                  ایران ، کرمان
                                 </p>
                                 <p className="mb-0">
-                                  <strong>Phone</strong>
+                                  <strong>تلفن</strong>
                                 </p>
-                                <p className="pb-2">+98933-991-9214</p>
+                                <p className="pb-2" style={{direction:"ltr" , textAlign:"right"}}>+98933-991-9214</p>
                                 <p className="mb-0">
-                                  <strong>Email</strong>
+                                  <strong>ایمیل</strong>
                                 </p>
                                 <p>s.m.hosseyn.alavi@gmail.com</p>
                               </div>
@@ -1334,7 +1335,7 @@ export default class PerianPage extends Component {
               <i className="fa fa-instagram fa-2x " aria-hidden="true" />
             </a>
           </div>
-          <div className="h4 title text-center">Hosseyn Alavi</div>
+          <div className="h4 title text-center fa-font">سید حسین علوی</div>
           <div className="text-center text-muted">
             <p>&copy; Creative CV. All rights reserved.<br />Design - <a className="credit" href="https://templateflip.com">TemplateFlip</a></p>
           </div>
