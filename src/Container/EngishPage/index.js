@@ -76,7 +76,7 @@ export default class EnglishPage extends Component {
                       </div>
                       <div className="h2 title">Hosseyn Alavi</div>
                       <p className="category text-white">
-                        Project Manager ,Web Developer
+                        Web Developer
                       </p>
                       <a
                         className="btn btn-primary smooth-scroll mr-2"
@@ -718,7 +718,42 @@ export default class EnglishPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-experience-header">
-                        <p>February 2018 - Present</p>
+                        <p>June 2017 - Present</p>
+                        <div className="h5">
+                          <a
+                            style={{ color: "white" }}
+                            href="http://www.zaravand.com"
+                          >
+                            Zaravand
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-9"
+                      data-aos="fade-left"
+                      data-aos-offset="50"
+                      data-aos-duration="500"
+                    >
+                      <div className="card-body">
+                        <div className="h5">FrontEnd Developer</div>
+                        <p>
+                          Coding With ReactJS Technology And Using Restfull Api
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="row">
+                    <div
+                      className="col-md-3 bg-primary"
+                      data-aos="fade-right"
+                      data-aos-offset="50"
+                      data-aos-duration="500"
+                    >
+                      <div className="card-body cc-experience-header">
+                        <p>February 2018 - March 2019</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
@@ -761,7 +796,7 @@ export default class EnglishPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-experience-header">
-                        <p>October 2018 - Present</p>
+                        <p>February 2016 - August 2016</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
@@ -779,52 +814,11 @@ export default class EnglishPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body">
-                        <div className="h5">FrontEnd Developer</div>
+                        <div className="h5">Full Stack Developer</div>
                         <p>
-                          Coding With ReactJS Technology And Using Restfull Api
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="row">
-                    <div
-                      className="col-md-3 bg-primary"
-                      data-aos="fade-right"
-                      data-aos-offset="50"
-                      data-aos-duration="500"
-                    >
-                      <div className="card-body cc-experience-header">
-                        <p>January 2013 - February 2016</p>
-                        <div className="h5">
-                          <a
-                            style={{ color: "white" }}
-                            href="http://www.zaravand.com"
-                          >
-                            Zaravand
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="col-md-9"
-                      data-aos="fade-left"
-                      data-aos-offset="50"
-                      data-aos-duration="500"
-                    >
-                      <div className="card-body">
-                        <div className="h5">Software Support</div>
-                        <p>
-                          - Company Software Products Support <br />
-                          - Hardware Support Inside The Company
-                          <br />
-                          - Server And Network Admin Inside The Company
-                          <br />
-                          - Customer Relationship Management to Fix Software
-                          Problems
-                          <br />
-                          - Training Clients To Work With Software <br />
+                          - BackEnd Develop (Sql Server , Asp.Net)
+                          <br />- FrontEnd Develop (HTML , CSS, JavaScript ,
+                          JQuery)
                         </p>
                       </div>
                     </div>
@@ -878,7 +872,7 @@ export default class EnglishPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-experience-header">
-                        <p>February 2016 - August 2016</p>
+                        <p>January 2013 - February 2016</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
@@ -896,46 +890,17 @@ export default class EnglishPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body">
-                        <div className="h5">Full Stack Developer</div>
+                        <div className="h5">Software Support</div>
                         <p>
-                          - BackEnd Develop (Sql Server , Asp.Net)
-                          <br />- FrontEnd Develop (HTML , CSS, JavaScript ,
-                          JQuery)
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="row">
-                    <div
-                      className="col-md-3 bg-primary"
-                      data-aos="fade-right"
-                      data-aos-offset="50"
-                      data-aos-duration="500"
-                    >
-                      <div className="card-body cc-experience-header">
-                        <p>June 2017 - February 2018</p>
-                        <div className="h5">
-                          <a
-                            style={{ color: "white" }}
-                            href="http://www.zaravand.com"
-                          >
-                            Zaravand
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="col-md-9"
-                      data-aos="fade-left"
-                      data-aos-offset="50"
-                      data-aos-duration="500"
-                    >
-                      <div className="card-body">
-                        <div className="h5">Project Implementation </div>
-                        <p>
-                          Responsible For Implementation Of A Home Service Website Project
+                          - Company Software Products Support <br />
+                          - Hardware Support Inside The Company
+                          <br />
+                          - Server And Network Admin Inside The Company
+                          <br />
+                          - Customer Relationship Management to Fix Software
+                          Problems
+                          <br />
+                          - Training Clients To Work With Software <br />
                         </p>
                       </div>
                     </div>

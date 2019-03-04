@@ -76,9 +76,9 @@ export default class PerianPage extends Component {
                       </div>
                       <div className="h2 title fa-font">سید حسین علوی</div>
                       <p className="category text-white fa-font">
-                        مدیر پروژه و توسعه دهنده وب
+                         توسعه دهنده وب
                       </p>
-                      <a
+                      {/* <a
                         className="btn btn-primary smooth-scroll mr-2"
                         href="#contact"
                         data-aos="zoom-in"
@@ -93,7 +93,7 @@ export default class PerianPage extends Component {
                         data-aos-anchor="data-aos-anchor"
                       >
                         Download CV
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                   <div className="section">
@@ -149,7 +149,7 @@ export default class PerianPage extends Component {
                           <div className="col-sm-4">
                             <strong className="text-uppercase">سن:</strong>
                           </div>
-                          <div className="col-sm-8">۲۵</div>
+                          <div className="col-sm-8">27</div>
                         </div>
                         <div className="row mt-3 fa-font">
                           <div className="col-sm-4">
@@ -716,7 +716,42 @@ export default class PerianPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-experience-header fa-font">
-                        <p>فروردین 1397 - حال حاضر</p>
+                        <p>تیر 1396 - حال حاضر</p>
+                        <div className="h5">
+                          <a
+                            style={{ color: "white" }}
+                            href="http://www.zaravand.com"
+                          >
+                           شرکت کامپیوتری زراوند
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-9"
+                      data-aos="fade-left"
+                      data-aos-offset="50"
+                      data-aos-duration="500"
+                    >
+                      <div className="card-body fa-font">
+                        <div className="h5">توسعه دهنده فرانت اند</div>
+                        <p>
+                         برنامه نویسی با تکنولوژی ReactJS و با استفاده از RestAPI
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="row">
+                    <div
+                      className="col-md-3 bg-primary"
+                      data-aos="fade-right"
+                      data-aos-offset="50"
+                      data-aos-duration="500"
+                    >
+                      <div className="card-body cc-experience-header fa-font">
+                        <p>فروردین 1397 - فروردین 1398</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
@@ -757,42 +792,7 @@ export default class PerianPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-experience-header fa-font">
-                        <p>آبان 1397 - حال حاضر</p>
-                        <div className="h5">
-                          <a
-                            style={{ color: "white" }}
-                            href="http://www.zaravand.com"
-                          >
-                           شرکت کامپیوتری زراوند
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="col-md-9"
-                      data-aos="fade-left"
-                      data-aos-offset="50"
-                      data-aos-duration="500"
-                    >
-                      <div className="card-body fa-font">
-                        <div className="h5">توسعه دهنده فرانت اند</div>
-                        <p>
-                         برنامه نویسی با تکنولوژی ReactJS و با استفاده از RestAPI
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="row">
-                    <div
-                      className="col-md-3 bg-primary"
-                      data-aos="fade-right"
-                      data-aos-offset="50"
-                      data-aos-duration="500"
-                    >
-                      <div className="card-body cc-experience-header fa-font">
-                        <p>دی 1391 - فروردین 1395</p>
+                        <p>فروردین 1395 - شهریور 1395</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
@@ -810,16 +810,11 @@ export default class PerianPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body fa-font">
-                        <div className="h5">مسئول پشتیبانی نرم افزار</div>
+                        <div className="h5">برنامه نویس فول استک</div>
                         <p>
-                          - پشتیبانی محصولات تولید شده در شرکت <br />
-                          - پشتیبانی سخت افزاری داخل شرکت
-                          <br />
-                          - مدیریت سرور و شبکه داخلی شرکت
-                          <br />
-                          - مدیریت ارتباط با مشتریان و رفع اشکالات نرم افزاری
-                          <br />
-                          - آموزش نرم افزارها به مشتریان <br />
+                          - برنامه نویسی بک اند (Sql Server , Asp.Net)
+                          <br />- برنامه نویسی فرانت اند (HTML , CSS, JavaScript ,
+                          JQuery)
                         </p>
                       </div>
                     </div>
@@ -872,7 +867,7 @@ export default class PerianPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-experience-header fa-font">
-                        <p>فروردین 1395 - شهریور 1395</p>
+                        <p>دی 1391 - فروردین 1395</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
@@ -890,46 +885,16 @@ export default class PerianPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body fa-font">
-                        <div className="h5">برنامه نویس فول استک</div>
+                        <div className="h5">مسئول پشتیبانی نرم افزار</div>
                         <p>
-                          - برنامه نویسی بک اند (Sql Server , Asp.Net)
-                          <br />- برنامه نویسی فرانت اند (HTML , CSS, JavaScript ,
-                          JQuery)
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="row">
-                    <div
-                      className="col-md-3 bg-primary"
-                      data-aos="fade-right"
-                      data-aos-offset="50"
-                      data-aos-duration="500"
-                    >
-                      <div className="card-body cc-experience-header fa-font">
-                        <p>تیر 1396 - فروردین 1397</p>
-                        <div className="h5">
-                          <a
-                            style={{ color: "white" }}
-                            href="http://www.zaravand.com"
-                          >
-                            شرکت کامپیوتری زراوند
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="col-md-9"
-                      data-aos="fade-left"
-                      data-aos-offset="50"
-                      data-aos-duration="500"
-                    >
-                      <div className="card-body fa-font">
-                        <div className="h5">مسئول اجرای پروژه </div>
-                        <p>
-                        مسئولیت اجرای پروژه خدمات خانگی به سفارش سازمان بهزیستی
+                          - پشتیبانی محصولات تولید شده در شرکت <br />
+                          - پشتیبانی سخت افزاری داخل شرکت
+                          <br />
+                          - مدیریت سرور و شبکه داخلی شرکت
+                          <br />
+                          - مدیریت ارتباط با مشتریان و رفع اشکالات نرم افزاری
+                          <br />
+                          - آموزش نرم افزارها به مشتریان <br />
                         </p>
                       </div>
                     </div>
