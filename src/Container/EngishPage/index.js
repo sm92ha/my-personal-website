@@ -30,11 +30,11 @@ export default class EnglishPage extends Component {
                         Skills
                       </a>
                     </li>
-                    {/* <li className="nav-item">
+                    <li className="nav-item">
                       <a className="nav-link smooth-scroll" href="#portfolio">
                         Portfolio
                       </a>
-                    </li> */}
+                    </li>
                     <li className="nav-item">
                       <a className="nav-link smooth-scroll" href="#experience">
                         Experience
@@ -76,7 +76,7 @@ export default class EnglishPage extends Component {
                       </div>
                       <div className="h2 title">Hosseyn Alavi</div>
                       <p className="category text-white">
-                        Web Developer
+                        Senior Web Developer
                       </p>
                       <a
                         className="btn btn-primary smooth-scroll mr-2"
@@ -249,55 +249,16 @@ export default class EnglishPage extends Component {
                               aria-valuenow="60"
                               aria-valuemin="0"
                               aria-valuemax="100"
-                              style={{ width: "85%" }}
+                              style={{ width: "90%" }}
                             />
-                            <span className="progress-value">85%</span>
+                            <span className="progress-value">90%</span>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col-md-6">
-                        <div className="progress-container progress-primary">
-                          <span className="progress-badge">SQL Server</span>
-                          <div className="progress">
-                            <div
-                              className="progress-bar progress-bar-primary"
-                              data-aos="progress-full"
-                              data-aos-offset="10"
-                              data-aos-duration="2000"
-                              role="progressbar"
-                              aria-valuenow="60"
-                              aria-valuemin="0"
-                              aria-valuemax="100"
-                              style={{ width: "60%" }}
-                            />
-                            <span className="progress-value">60%</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-md-6">
-                        <div className="progress-container progress-primary">
-                          <span className="progress-badge">React Native</span>
-                          <div className="progress">
-                            <div
-                              className="progress-bar progress-bar-primary"
-                              data-aos="progress-full"
-                              data-aos-offset="10"
-                              data-aos-duration="2000"
-                              role="progressbar"
-                              aria-valuenow="60"
-                              aria-valuemin="0"
-                              aria-valuemax="100"
-                              style={{ width: "50%" }}
-                            />
-                            <span className="progress-value">50%</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-md-6">
+
+                    <div className="col-md-6">
                         <div className="progress-container progress-primary">
                           <span className="progress-badge">Java Script </span>
                           <div className="progress">
@@ -316,6 +277,7 @@ export default class EnglishPage extends Component {
                           </div>
                         </div>
                       </div>
+                      
                       <div className="col-md-6">
                         <div className="progress-container progress-primary">
                           <span className="progress-badge">Node JS </span>
@@ -332,6 +294,49 @@ export default class EnglishPage extends Component {
                               style={{ width: "65%" }}
                             />
                             <span className="progress-value">65%</span>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div className="row">
+                     
+                    <div className="col-md-6">
+                        <div className="progress-container progress-primary">
+                          <span className="progress-badge">SQL Server</span>
+                          <div className="progress">
+                            <div
+                              className="progress-bar progress-bar-primary"
+                              data-aos="progress-full"
+                              data-aos-offset="10"
+                              data-aos-duration="2000"
+                              role="progressbar"
+                              aria-valuenow="60"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style={{ width: "70%" }}
+                            />
+                            <span className="progress-value">70%</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-md-6">
+                        <div className="progress-container progress-primary">
+                          <span className="progress-badge">React Native</span>
+                          <div className="progress">
+                            <div
+                              className="progress-bar progress-bar-primary"
+                              data-aos="progress-full"
+                              data-aos-offset="10"
+                              data-aos-duration="2000"
+                              role="progressbar"
+                              aria-valuenow="60"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style={{ width: "50%" }}
+                            />
+                            <span className="progress-value">50%</span>
                           </div>
                         </div>
                       </div>
@@ -360,7 +365,7 @@ export default class EnglishPage extends Component {
                       </div>
                       <div className="col-md-6">
                         <div className="progress-container progress-primary">
-                          <span className="progress-badge">Redux</span>
+                          <span className="progress-badge">MongoDB</span>
                           <div className="progress">
                             <div
                               className="progress-bar progress-bar-primary"
@@ -372,6 +377,46 @@ export default class EnglishPage extends Component {
                               aria-valuemin="0"
                               aria-valuemax="100"
                               style={{ width: "50%" }}
+                            />
+                            <span className="progress-value">50%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-md-6">
+                        <div className="progress-container progress-primary">
+                          <span className="progress-badge">Restfull Api</span>
+                          <div className="progress">
+                            <div
+                              className="progress-bar progress-bar-primary"
+                              data-aos="progress-full"
+                              data-aos-offset="10"
+                              data-aos-duration="2000"
+                              role="progressbar"
+                              aria-valuenow="60"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style={{ width: "80%" }}
+                            />
+                            <span className="progress-value">80%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div className="progress-container progress-primary">
+                          <span className="progress-badge">Graph QL</span>
+                          <div className="progress">
+                            <div
+                              className="progress-bar progress-bar-primary"
+                              data-aos="progress-full"
+                              data-aos-offset="10"
+                              data-aos-duration="2000"
+                              role="progressbar"
+                              aria-valuenow="60"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style={{ width: "80%" }}
                             />
                             <span className="progress-value">50%</span>
                           </div>
@@ -422,7 +467,9 @@ export default class EnglishPage extends Component {
                 </div>
               </div>
             </div>
-            <div className="section" id="portfolio" style={{ display: "none" }}>
+            <div className="section" id="portfolio" 
+            // style={{ display: "none" }}
+            >
               <div className="container">
                 <div className="row">
                   <div className="col-md-6 ml-auto mr-auto">
@@ -449,10 +496,10 @@ export default class EnglishPage extends Component {
                             href="#graphic-design"
                             role="tablist"
                           >
-                            <i className="fa fa-picture-o" aria-hidden="true" />
+                            <i className="fa fa-internet-explorer" aria-hidden="true" />
                           </a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                           <a
                             className="nav-link"
                             data-toggle="tab"
@@ -461,7 +508,7 @@ export default class EnglishPage extends Component {
                           >
                             <i className="fa fa-camera" aria-hidden="true" />
                           </a>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -477,11 +524,12 @@ export default class EnglishPage extends Component {
                             data-aos-anchor-placement="top-bottom"
                           >
                             <a href="#web-development">
-                              <figure className="cc-effect">
-                                <img src="images/project-1.jpg" alt="Web Development" />
+                              <figure className="cc-effect" style={{display:"flex",justifyContent:"space-around"}}>
+                                <img src={require("../../images/portfolio/BestooranMobile1.jpg")} alt="Web Development" style={{width: "45%",height:"100%"}}/>
+                                <img src={require("../../images/portfolio/BestooranMobile2.jpg")} alt="Web Development" style={{width: "45%",height:"100%"}}/>
                                 <figcaption>
-                                  <div className="h4">Recent Project</div>
-                                  <p>Web Development</p>
+                                  <div className="h4">Bestooran Mobile App</div>
+                                  <p>Project Manager , FrontEnd Developer</p>
                                 </figcaption>
                               </figure>
                             </a>
@@ -493,10 +541,40 @@ export default class EnglishPage extends Component {
                           >
                             <a href="#web-development">
                               <figure className="cc-effect">
-                                <img src="images/project-2.jpg" alt="Web Development" />
+                                <img src={require("../../images/portfolio/BestooranWebSite2.jpg")}  alt="Web Development" />
                                 <figcaption>
-                                  <div className="h4">Startup Project</div>
-                                  <p>Web Development</p>
+                                  <div className="h4">Bestooran Website</div>
+                                  <p>Project Manager , FrontEnd Developer</p>
+                                </figcaption>
+                              </figure>
+                            </a>
+                          </div>
+                          <div
+                            className="cc-porfolio-image img-raised"
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom"
+                          >
+                            <a href="#web-development">
+                              <figure className="cc-effect">
+                                <img src={require("../../images/portfolio/HHS2.jpg")}  alt="Web Development" />
+                                <figcaption>
+                                  <div className="h4">Home Service Website</div>
+                                  <p>FullStack Developer , Part Of team</p>
+                                </figcaption>
+                              </figure>
+                            </a>
+                          </div>
+                          <div
+                            className="cc-porfolio-image img-raised"
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom"
+                          >
+                            <a href="#web-development">
+                              <figure className="cc-effect">
+                                <img src={require("../../images/portfolio/chapimoCP.JPG")}  alt="Web Development" />
+                                <figcaption>
+                                  <div className="h4">Chapimo Conrol Panel</div>
+                                  <p>FrontEnd Developer</p>
                                 </figcaption>
                               </figure>
                             </a>
@@ -509,11 +587,12 @@ export default class EnglishPage extends Component {
                             data-aos-anchor-placement="top-bottom"
                           >
                             <a href="#web-development">
-                              <figure className="cc-effect">
-                                <img src="images/project-3.jpg" alt="Web Development" />
+                              <figure className="cc-effect" style={{display:"flex",justifyContent:"space-around"}}>
+                                <img src={require("../../images/portfolio/ITSGCO1.jpg")} alt="Web Development" style={{width: "45%",height:"100%"}} />
+                                <img src={require("../../images/portfolio/ITSGCO2.jpg")} alt="Web Development" style={{width: "45%",height:"100%"}} />
                                 <figcaption>
-                                  <div className="h4">Food Order Project</div>
-                                  <p>Web Development</p>
+                                  <div className="h4">ITSGCO Company Login App</div>
+                                  <p>iOS and Andriod Developer With React native</p>
                                 </figcaption>
                               </figure>
                             </a>
@@ -525,12 +604,29 @@ export default class EnglishPage extends Component {
                           >
                             <a href="#web-development">
                               <figure className="cc-effect">
-                                <img src="images/project-4.jpg" alt="Web Development" />
+                                <img src={require("../../images/portfolio/SuniMarket.JPG")} alt="Web Development" />
                                 <figcaption>
                                   <div className="h4">
-                                    Web Advertising Project
+                                    Suni Market Project
                                   </div>
-                                  <p>Web Development</p>
+                                  <p>Project Manager , FrontEnd Developer</p>
+                                </figcaption>
+                              </figure>
+                            </a>
+                          </div>
+                          <div
+                            className="cc-porfolio-image img-raised"
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom"
+                          >
+                            <a href="#web-development">
+                              <figure className="cc-effect">
+                                <img src={require("../../images/portfolio/Quizztion1.JPG")} alt="Web Development" />
+                                <figcaption>
+                                  <div className="h4">
+                                    Quiztion Game Control Panel
+                                  </div>
+                                  <p>FrontEnd Developer</p>
                                 </figcaption>
                               </figure>
                             </a>
@@ -551,12 +647,12 @@ export default class EnglishPage extends Component {
                             <a href="#graphic-design">
                               <figure className="cc-effect">
                                 <img
-                                  src="images/graphic-design-1.jpg"
+                                  src={require("../../images/portfolio/Cargo1.PNG")}
                                   alt="Graphic Design"
                                 />
                                 <figcaption>
-                                  <div className="h4">Triangle Pattern</div>
-                                  <p>Graphic Design</p>
+                                  <div className="h4">Online Cargo Project - 1</div>
+                                  <p>FrontEnd Developer</p>
                                 </figcaption>
                               </figure>
                             </a>
@@ -569,12 +665,30 @@ export default class EnglishPage extends Component {
                             <a href="#graphic-design">
                               <figure className="cc-effect">
                                 <img
-                                  src="images/graphic-design-2.jpg"
+                                  src={require("../../images/portfolio/Cargo2.JPG")}
                                   alt="Graphic Design"
                                 />
                                 <figcaption>
-                                  <div className="h4">Abstract Umbrella</div>
-                                  <p>Graphic Design</p>
+                                  <div className="h4">Online Cargo Project - 2</div>
+                                  <p>FrontEnd Developer</p>
+                                </figcaption>
+                              </figure>
+                            </a>
+                          </div>
+                          <div
+                            className="cc-porfolio-image img-raised"
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom"
+                          >
+                            <a href="#graphic-design">
+                              <figure className="cc-effect">
+                                <img
+                                  src={require("../../images/portfolio/Cargo4.JPG")}
+                                  alt="Graphic Design"
+                                />
+                                <figcaption>
+                                  <div className="h4">Online Cargo Project - 3</div>
+                                  <p>FrontEnd Developer</p>
                                 </figcaption>
                               </figure>
                             </a>
@@ -589,12 +703,12 @@ export default class EnglishPage extends Component {
                             <a href="#graphic-design">
                               <figure className="cc-effect">
                                 <img
-                                  src="images/graphic-design-3.jpg"
+                                  src={require("../../images/portfolio/Zaramad2.jpg")}
                                   alt="Graphic Design"
                                 />
                                 <figcaption>
-                                  <div className="h4">Cube Surface Texture</div>
-                                  <p>Graphic Design</p>
+                                  <div className="h4">Municipality Income Management System</div>
+                                  <p>Project Manager ,Analyzer, FrontEnd Developer</p>
                                 </figcaption>
                               </figure>
                             </a>
@@ -607,12 +721,30 @@ export default class EnglishPage extends Component {
                             <a href="#graphic-design">
                               <figure className="cc-effect">
                                 <img
-                                  src="images/graphic-design-4.jpg"
+                                  src={require("../../images/portfolio/Zaramad3.jpg")}
                                   alt="Graphic Design"
                                 />
                                 <figcaption>
-                                  <div className="h4">Abstract Line</div>
-                                  <p>Graphic Design</p>
+                                  <div className="h4">Municipality Income Management System</div>
+                                  <p>Project Manager ,Analyzer, FrontEnd Developer</p>
+                                </figcaption>
+                              </figure>
+                            </a>
+                          </div>
+                          <div
+                            className="cc-porfolio-image img-raised"
+                            data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom"
+                          >
+                            <a href="#graphic-design">
+                              <figure className="cc-effect">
+                                <img
+                                  src={require("../../images/portfolio/Zaramad4.jpg")}
+                                  alt="Graphic Design"
+                                />
+                                <figcaption>
+                                  <div className="h4">Municipality Income Management System</div>
+                                  <p>Project Manager ,Analyzer, FrontEnd Developer</p>
                                 </figcaption>
                               </figure>
                             </a>
@@ -738,7 +870,8 @@ export default class EnglishPage extends Component {
                       <div className="card-body">
                         <div className="h5">FrontEnd Developer</div>
                         <p>
-                          Coding With ReactJS Technology And Using Restfull Api
+                          Coding With ReactJS Technology And Using Restfull Api <br />
+                          Lead Other Developers (FrontEnd and BackEnd)
                         </p>
                       </div>
                     </div>
@@ -796,7 +929,7 @@ export default class EnglishPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-experience-header">
-                        <p>February 2016 - August 2016</p>
+                        <p>February 2016 - June 2017</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
@@ -818,7 +951,9 @@ export default class EnglishPage extends Component {
                         <p>
                           - BackEnd Develop (Sql Server , Asp.Net)
                           <br />- FrontEnd Develop (HTML , CSS, JavaScript ,
-                          JQuery)
+                          JQuery) <br />
+                          - Database Admin <br />
+                          - R&D team
                         </p>
                       </div>
                     </div>
