@@ -972,7 +972,7 @@ export default class EnglishPage extends Component {
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
-                            href="http://www.bestooran.com"
+                            href="http://www.bestooran.ir"
                           >
                             Bestooran
                           </a>
