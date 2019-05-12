@@ -76,7 +76,7 @@ export default class EnglishPage extends Component {
                       </div>
                       <div className="h2 title">Hosseyn Alavi</div>
                       <p className="category text-white">
-                        Senior Web Developer
+                        Web Developer
                       </p>
                       <a
                         className="btn btn-primary smooth-scroll mr-2"
@@ -871,7 +871,43 @@ export default class EnglishPage extends Component {
                         <div className="h5">FrontEnd Developer</div>
                         <p>
                           Coding With ReactJS Technology And Using Restfull Api <br />
-                          Lead Other Developers (FrontEnd and BackEnd)
+                          Leading Other Developers (FrontEnd and BackEnd) <br />
+                          Analysis Of The Projects
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="row">
+                    <div
+                      className="col-md-3 bg-primary"
+                      data-aos="fade-right"
+                      data-aos-offset="50"
+                      data-aos-duration="500"
+                    >
+                      <div className="card-body cc-experience-header">
+                        <p>March 2019 - Present</p>
+                        <div className="h5">
+                          <a
+                            style={{ color: "white" }}
+                            href="http://www.akafweb.com"
+                          >
+                            Akaf Web
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-9"
+                      data-aos="fade-left"
+                      data-aos-offset="50"
+                      data-aos-duration="500"
+                    >
+                      <div className="card-body">
+                        <div className="h5">FrontEnd Developer</div>
+                        <p>
+                          Coding With ReactJS Technology And Using Restfull Api
                         </p>
                       </div>
                     </div>
