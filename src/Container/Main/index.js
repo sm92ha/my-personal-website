@@ -4,7 +4,7 @@ import { Redirect } from "react-router-dom";
 export default class Main extends Component {
     state = { location: this.props.location, isPersian: false, isEnglish: false }
     find() {
-        if (this.state.location.country_name === "Iran") {
+        if (this.state.location.country === "Iran") {
             this.setState({ isPersian: true })
         } else {
             this.setState({ isEnglish: true })
