@@ -215,11 +215,10 @@ export default class EnglishPage extends Component {
                 >
                   <div className="card-body">
                     <div className="row">
-                      <div className="col-md-6">
+
+                    <div className="col-md-6">
                         <div className="progress-container progress-primary">
-                          <span className="progress-badge">
-                            Project Management
-                          </span>
+                          <span className="progress-badge">Java Script </span>
                           <div className="progress">
                             <div
                               className="progress-bar progress-bar-primary"
@@ -236,6 +235,7 @@ export default class EnglishPage extends Component {
                           </div>
                         </div>
                       </div>
+
                       <div className="col-md-6">
                         <div className="progress-container progress-primary">
                           <span className="progress-badge">React JS</span>
@@ -258,25 +258,7 @@ export default class EnglishPage extends Component {
                     </div>
                     <div className="row">
 
-                    <div className="col-md-6">
-                        <div className="progress-container progress-primary">
-                          <span className="progress-badge">Java Script </span>
-                          <div className="progress">
-                            <div
-                              className="progress-bar progress-bar-primary"
-                              data-aos="progress-full"
-                              data-aos-offset="10"
-                              data-aos-duration="2000"
-                              role="progressbar"
-                              aria-valuenow="60"
-                              aria-valuemin="0"
-                              aria-valuemax="100"
-                              style={{ width: "80%" }}
-                            />
-                            <span className="progress-value">80%</span>
-                          </div>
-                        </div>
-                      </div>
+                   
                       
                       <div className="col-md-6">
                         <div className="progress-container progress-primary">
@@ -294,29 +276,6 @@ export default class EnglishPage extends Component {
                               style={{ width: "65%" }}
                             />
                             <span className="progress-value">65%</span>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div>
-                    <div className="row">
-                     
-                    <div className="col-md-6">
-                        <div className="progress-container progress-primary">
-                          <span className="progress-badge">SQL Server</span>
-                          <div className="progress">
-                            <div
-                              className="progress-bar progress-bar-primary"
-                              data-aos="progress-full"
-                              data-aos-offset="10"
-                              data-aos-duration="2000"
-                              role="progressbar"
-                              aria-valuenow="60"
-                              aria-valuemin="0"
-                              aria-valuemax="100"
-                              style={{ width: "70%" }}
-                            />
-                            <span className="progress-value">70%</span>
                           </div>
                         </div>
                       </div>
@@ -340,13 +299,18 @@ export default class EnglishPage extends Component {
                           </div>
                         </div>
                       </div>
+                      
                     </div>
+                    {/* <div className="row">
+                     
+                   
+
+                      
+                    </div> */}
                     <div className="row">
-                      <div className="col-md-6">
+                    <div className="col-md-6">
                         <div className="progress-container progress-primary">
-                          <span className="progress-badge">
-                            Computer Networks
-                          </span>
+                          <span className="progress-badge">SQL Server</span>
                           <div className="progress">
                             <div
                               className="progress-bar progress-bar-primary"
@@ -357,9 +321,9 @@ export default class EnglishPage extends Component {
                               aria-valuenow="60"
                               aria-valuemin="0"
                               aria-valuemax="100"
-                              style={{ width: "60%" }}
+                              style={{ width: "70%" }}
                             />
-                            <span className="progress-value">60%</span>
+                            <span className="progress-value">70%</span>
                           </div>
                         </div>
                       </div>
