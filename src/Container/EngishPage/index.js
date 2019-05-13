@@ -181,14 +181,14 @@ export default class EnglishPage extends Component {
                           </div>
                           <div className="col-sm-8">+98933-991-9214</div>
                         </div>
-                        <div className="row mt-3">
+                        {/* <div className="row mt-3">
                           <div className="col-sm-4">
                             <strong className="text-uppercase">
                               Location:
                             </strong>
                           </div>
                           <div className="col-sm-8">Kerman , Iran</div>
-                        </div>
+                        </div> */}
                         <div className="row mt-3">
                           <div className="col-sm-4">
                             <strong className="text-uppercase">
@@ -1397,12 +1397,12 @@ export default class EnglishPage extends Component {
                             </div>
                             <div className="col-md-6">
                               <div className="card-body">
-                                <p className="mb-0">
+                                {/* <p className="mb-0">
                                   <strong>Location </strong>
                                 </p>
                                 <p className="pb-2">
                                   Kerman , Iran
-                                </p>
+                                </p> */}
                                 <p className="mb-0">
                                   <strong>Phone</strong>
                                 </p>
