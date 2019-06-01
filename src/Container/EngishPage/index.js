@@ -149,11 +149,7 @@ export default class EnglishPage extends Component {
                           Developer
                         </p>
                         <p>
-                          Front-end web developer with 5 years of experience
-                          building various types of web applications using
-                          ReactJS as the latest technology. I also have a
-                          background in Project management, backend development,
-                          and hardware and network maintenance.
+                        A passionate front-end developer with 5 years of programming experience using a variety of languages.<br/> During all my professional life, I do not remember even one day of not learning something new and now I can make beautiful, smooth, yet sophisticated applications, also when facing a challenge, I get so excited to solve it.<br /> My biggest concern is to stay up-to-date and I love contributing my knowledge and experience to others. 
                           {/* <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a> */}
                         </p>
                       </div>
@@ -851,7 +847,7 @@ export default class EnglishPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-experience-header">
-                        <p>March 2019 - Present</p>
+                        <p>March 2019 - June 2019</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
