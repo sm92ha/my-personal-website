@@ -346,7 +346,7 @@ export default class EnglishPage extends Component {
                     <div className="row">
                       <div className="col-md-6">
                         <div className="progress-container progress-primary">
-                          <span className="progress-badge">Restfull Api</span>
+                          <span className="progress-badge">Restful API</span>
                           <div className="progress">
                             <div
                               className="progress-bar progress-bar-primary"
@@ -830,7 +830,7 @@ export default class EnglishPage extends Component {
                       <div className="card-body">
                         <div className="h5">FrontEnd Developer</div>
                         <p>
-                          Coding With ReactJS Technology And Using Restfull Api <br />
+                          Coding With ReactJS Technology And Using Restful API <br />
                           Leading Other Developers (FrontEnd and BackEnd) <br />
                           Analysis Of The Projects
                         </p>
@@ -867,7 +867,7 @@ export default class EnglishPage extends Component {
                       <div className="card-body">
                         <div className="h5">FrontEnd Developer</div>
                         <p>
-                          Coding With ReactJS Technology And Using Restfull Api
+                          Coding With ReactJS Technology And Using Restful API
                         </p>
                       </div>
                     </div>
