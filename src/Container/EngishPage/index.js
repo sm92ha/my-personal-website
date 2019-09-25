@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class EnglishPage extends Component {
   render() {
     return (
-         <div>
+      <div>
         <header>
           <div className="profile-page sidebar-collapse">
             <nav
@@ -12,9 +12,21 @@ export default class EnglishPage extends Component {
             >
               <div className="container">
                 <div className="navbar-translate">
-                {/* <a className="navbar-brand" href="http:\\www.hosseyn-alavi.ir" rel="tooltip"></a> */}
-              <button className="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-bar bar1"></span><span className="navbar-toggler-bar bar2"></span><span className="navbar-toggler-bar bar3"></span></button>
-            </div>
+                  {/* <a className="navbar-brand" href="http:\\www.hosseyn-alavi.ir" rel="tooltip"></a> */}
+                  <button
+                    className="navbar-toggler navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navigation"
+                    aria-controls="navigation"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span className="navbar-toggler-bar bar1"></span>
+                    <span className="navbar-toggler-bar bar2"></span>
+                    <span className="navbar-toggler-bar bar3"></span>
+                  </button>
+                </div>
                 <div
                   className="collapse navbar-collapse justify-content-end"
                   id="navigation"
@@ -62,7 +74,9 @@ export default class EnglishPage extends Component {
                   <div
                     className="page-header-image"
                     data-parallax="true"
-                    style={{backgroundImage:`url(${require("../../images/cc-bg-1.jpg")})` }}
+                    style={{
+                      backgroundImage: `url(${require("../../images/cc-bg-1.jpg")})`
+                    }}
                   />
                   <div className="container">
                     <div className="content-center">
@@ -75,9 +89,7 @@ export default class EnglishPage extends Component {
                         </a>
                       </div>
                       <div className="h2 title">Hosseyn Alavi</div>
-                      <p className="category text-white">
-                        Web Developer
-                      </p>
+                      <p className="category text-white">Web Developer</p>
                       <a
                         className="btn btn-primary smooth-scroll mr-2"
                         href="#contact"
@@ -215,8 +227,7 @@ export default class EnglishPage extends Component {
                 >
                   <div className="card-body">
                     <div className="row">
-
-                    <div className="col-md-6">
+                      <div className="col-md-6">
                         <div className="progress-container progress-primary">
                           <span className="progress-badge">Java Script </span>
                           <div className="progress">
@@ -257,9 +268,6 @@ export default class EnglishPage extends Component {
                       </div>
                     </div>
                     <div className="row">
-
-                   
-                      
                       <div className="col-md-6">
                         <div className="progress-container progress-primary">
                           <span className="progress-badge">Node JS </span>
@@ -299,7 +307,6 @@ export default class EnglishPage extends Component {
                           </div>
                         </div>
                       </div>
-                      
                     </div>
                     {/* <div className="row">
                      
@@ -308,7 +315,7 @@ export default class EnglishPage extends Component {
                       
                     </div> */}
                     <div className="row">
-                    <div className="col-md-6">
+                      <div className="col-md-6">
                         <div className="progress-container progress-primary">
                           <span className="progress-badge">SQL Server</span>
                           <div className="progress">
@@ -431,8 +438,10 @@ export default class EnglishPage extends Component {
                 </div>
               </div>
             </div>
-            <div className="section" id="portfolio" 
-            // style={{ display: "none" }}
+            <div
+              className="section"
+              id="portfolio"
+              // style={{ display: "none" }}
             >
               <div className="container">
                 <div className="row">
@@ -460,7 +469,10 @@ export default class EnglishPage extends Component {
                             href="#graphic-design"
                             role="tablist"
                           >
-                            <i className="fa fa-internet-explorer" aria-hidden="true" />
+                            <i
+                              className="fa fa-internet-explorer"
+                              aria-hidden="true"
+                            />
                           </a>
                         </li>
                         {/* <li className="nav-item">
@@ -488,9 +500,23 @@ export default class EnglishPage extends Component {
                             data-aos-anchor-placement="top-bottom"
                           >
                             <a href="#web-development">
-                              <figure className="cc-effect" style={{display:"flex",justifyContent:"space-around"}}>
-                                <img src={require("../../images/portfolio/BestooranMobile1.jpg")} alt="Web Development" style={{width: "45%",height:"100%"}}/>
-                                <img src={require("../../images/portfolio/BestooranMobile2.jpg")} alt="Web Development" style={{width: "45%",height:"100%"}}/>
+                              <figure
+                                className="cc-effect"
+                                style={{
+                                  display: "flex",
+                                  justifyContent: "space-around"
+                                }}
+                              >
+                                <img
+                                  src={require("../../images/portfolio/BestooranMobile1.jpg")}
+                                  alt="Web Development"
+                                  style={{ width: "45%", height: "100%" }}
+                                />
+                                <img
+                                  src={require("../../images/portfolio/BestooranMobile2.jpg")}
+                                  alt="Web Development"
+                                  style={{ width: "45%", height: "100%" }}
+                                />
                                 <figcaption>
                                   <div className="h4">Bestooran Mobile App</div>
                                   <p>Project Manager , FrontEnd Developer</p>
@@ -505,7 +531,10 @@ export default class EnglishPage extends Component {
                           >
                             <a href="#web-development">
                               <figure className="cc-effect">
-                                <img src={require("../../images/portfolio/BestooranWebSite2.jpg")}  alt="Web Development" />
+                                <img
+                                  src={require("../../images/portfolio/BestooranWebSite2.jpg")}
+                                  alt="Web Development"
+                                />
                                 <figcaption>
                                   <div className="h4">Bestooran Website</div>
                                   <p>Project Manager , FrontEnd Developer</p>
@@ -520,7 +549,10 @@ export default class EnglishPage extends Component {
                           >
                             <a href="#web-development">
                               <figure className="cc-effect">
-                                <img src={require("../../images/portfolio/HHS2.jpg")}  alt="Web Development" />
+                                <img
+                                  src={require("../../images/portfolio/HHS2.jpg")}
+                                  alt="Web Development"
+                                />
                                 <figcaption>
                                   <div className="h4">Home Service Website</div>
                                   <p>FullStack Developer , Part Of team</p>
@@ -535,7 +567,10 @@ export default class EnglishPage extends Component {
                           >
                             <a href="#web-development">
                               <figure className="cc-effect">
-                                <img src={require("../../images/portfolio/chapimoCP.JPG")}  alt="Web Development" />
+                                <img
+                                  src={require("../../images/portfolio/chapimoCP.JPG")}
+                                  alt="Web Development"
+                                />
                                 <figcaption>
                                   <div className="h4">Chapimo Conrol Panel</div>
                                   <p>FrontEnd Developer</p>
@@ -551,12 +586,30 @@ export default class EnglishPage extends Component {
                             data-aos-anchor-placement="top-bottom"
                           >
                             <a href="#web-development">
-                              <figure className="cc-effect" style={{display:"flex",justifyContent:"space-around"}}>
-                                <img src={require("../../images/portfolio/ITSGCO1.jpg")} alt="Web Development" style={{width: "45%",height:"100%"}} />
-                                <img src={require("../../images/portfolio/ITSGCO2.jpg")} alt="Web Development" style={{width: "45%",height:"100%"}} />
+                              <figure
+                                className="cc-effect"
+                                style={{
+                                  display: "flex",
+                                  justifyContent: "space-around"
+                                }}
+                              >
+                                <img
+                                  src={require("../../images/portfolio/ITSGCO1.jpg")}
+                                  alt="Web Development"
+                                  style={{ width: "45%", height: "100%" }}
+                                />
+                                <img
+                                  src={require("../../images/portfolio/ITSGCO2.jpg")}
+                                  alt="Web Development"
+                                  style={{ width: "45%", height: "100%" }}
+                                />
                                 <figcaption>
-                                  <div className="h4">ITSGCO Company Login App</div>
-                                  <p>iOS and Andriod Developer With React native</p>
+                                  <div className="h4">
+                                    ITSGCO Company Login App
+                                  </div>
+                                  <p>
+                                    iOS and Andriod Developer With React native
+                                  </p>
                                 </figcaption>
                               </figure>
                             </a>
@@ -568,11 +621,12 @@ export default class EnglishPage extends Component {
                           >
                             <a href="#web-development">
                               <figure className="cc-effect">
-                                <img src={require("../../images/portfolio/SuniMarket.JPG")} alt="Web Development" />
+                                <img
+                                  src={require("../../images/portfolio/SuniMarket.JPG")}
+                                  alt="Web Development"
+                                />
                                 <figcaption>
-                                  <div className="h4">
-                                    Suni Market Project
-                                  </div>
+                                  <div className="h4">Suni Market Project</div>
                                   <p>Project Manager , FrontEnd Developer</p>
                                 </figcaption>
                               </figure>
@@ -585,7 +639,10 @@ export default class EnglishPage extends Component {
                           >
                             <a href="#web-development">
                               <figure className="cc-effect">
-                                <img src={require("../../images/portfolio/Quizztion1.JPG")} alt="Web Development" />
+                                <img
+                                  src={require("../../images/portfolio/Quizztion1.JPG")}
+                                  alt="Web Development"
+                                />
                                 <figcaption>
                                   <div className="h4">
                                     Quiztion Game Control Panel
@@ -615,7 +672,9 @@ export default class EnglishPage extends Component {
                                   alt="Graphic Design"
                                 />
                                 <figcaption>
-                                  <div className="h4">Online Cargo Project - 1</div>
+                                  <div className="h4">
+                                    Online Cargo Project - 1
+                                  </div>
                                   <p>FrontEnd Developer</p>
                                 </figcaption>
                               </figure>
@@ -633,7 +692,9 @@ export default class EnglishPage extends Component {
                                   alt="Graphic Design"
                                 />
                                 <figcaption>
-                                  <div className="h4">Online Cargo Project - 2</div>
+                                  <div className="h4">
+                                    Online Cargo Project - 2
+                                  </div>
                                   <p>FrontEnd Developer</p>
                                 </figcaption>
                               </figure>
@@ -651,7 +712,9 @@ export default class EnglishPage extends Component {
                                   alt="Graphic Design"
                                 />
                                 <figcaption>
-                                  <div className="h4">Online Cargo Project - 3</div>
+                                  <div className="h4">
+                                    Online Cargo Project - 3
+                                  </div>
                                   <p>FrontEnd Developer</p>
                                 </figcaption>
                               </figure>
@@ -671,8 +734,13 @@ export default class EnglishPage extends Component {
                                   alt="Graphic Design"
                                 />
                                 <figcaption>
-                                  <div className="h4">Municipality Income Management System</div>
-                                  <p>Project Manager ,Analyzer, FrontEnd Developer</p>
+                                  <div className="h4">
+                                    Municipality Income Management System
+                                  </div>
+                                  <p>
+                                    Project Manager ,Analyzer, FrontEnd
+                                    Developer
+                                  </p>
                                 </figcaption>
                               </figure>
                             </a>
@@ -689,8 +757,13 @@ export default class EnglishPage extends Component {
                                   alt="Graphic Design"
                                 />
                                 <figcaption>
-                                  <div className="h4">Municipality Income Management System</div>
-                                  <p>Project Manager ,Analyzer, FrontEnd Developer</p>
+                                  <div className="h4">
+                                    Municipality Income Management System
+                                  </div>
+                                  <p>
+                                    Project Manager ,Analyzer, FrontEnd
+                                    Developer
+                                  </p>
                                 </figcaption>
                               </figure>
                             </a>
@@ -707,8 +780,13 @@ export default class EnglishPage extends Component {
                                   alt="Graphic Design"
                                 />
                                 <figcaption>
-                                  <div className="h4">Municipality Income Management System</div>
-                                  <p>Project Manager ,Analyzer, FrontEnd Developer</p>
+                                  <div className="h4">
+                                    Municipality Income Management System
+                                  </div>
+                                  <p>
+                                    Project Manager ,Analyzer, FrontEnd
+                                    Developer
+                                  </p>
                                 </figcaption>
                               </figure>
                             </a>
@@ -814,7 +892,44 @@ export default class EnglishPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-experience-header">
-                        <p>June 2017 - Present</p>
+                        <p>September 2019 - Present</p>
+                        <div className="h5">
+                          <a
+                            style={{ color: "white" }}
+                            href="http://www.iliatc.com/"
+                          >
+                            Ilia Computer Institute
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-9"
+                      data-aos="fade-left"
+                      data-aos-offset="50"
+                      data-aos-duration="500"
+                    >
+                      <div className="card-body">
+                        <div className="h5">ReactJs Trainer And Mentor</div>
+                        <p>
+                          Front end development consultant, especially React
+                          <br />
+                          ReactJS trainer from elementary to advanced
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="row">
+                    <div
+                      className="col-md-3 bg-primary"
+                      data-aos="fade-right"
+                      data-aos-offset="50"
+                      data-aos-duration="500"
+                    >
+                      <div className="card-body cc-experience-header">
+                        <p>June 2017 - September 2019</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
@@ -834,7 +949,8 @@ export default class EnglishPage extends Component {
                       <div className="card-body">
                         <div className="h5">FrontEnd Developer</div>
                         <p>
-                          Coding With ReactJS Technology And Using Restfull Api <br />
+                          Coding With ReactJS Technology And Using Restfull Api{" "}
+                          <br />
                           Leading Other Developers (FrontEnd and BackEnd) <br />
                           Analysis Of The Projects
                         </p>
@@ -952,8 +1068,7 @@ export default class EnglishPage extends Component {
                           - BackEnd Develop (Sql Server , Asp.Net)
                           <br />- FrontEnd Develop (HTML , CSS, JavaScript ,
                           JQuery) <br />
-                          - Database Admin <br />
-                          - R&D team
+                          - Database Admin <br />- R&D team
                         </p>
                       </div>
                     </div>
@@ -1070,9 +1185,12 @@ export default class EnglishPage extends Component {
                       <div className="card-body">
                         <div className="h5">Hardware Technician</div>
                         <p>
-                          - Check And Fix Computer Problems<br />
-                          - Setting Up Computer Networks<br />
-                          - Setting up and Deploying Servers In Networks<br />
+                          - Check And Fix Computer Problems
+                          <br />
+                          - Setting Up Computer Networks
+                          <br />
+                          - Setting up and Deploying Servers In Networks
+                          <br />
                         </p>
                       </div>
                     </div>
@@ -1144,19 +1262,28 @@ export default class EnglishPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body">
-                        <div className="h5">Information Technology Engineering</div>
+                        <div className="h5">
+                          Information Technology Engineering
+                        </div>
                         <p className="category">
                           Kerman Institute of Higher Education
                         </p>
                         <p>
                           Courses : <br />
-                          - Strategic Management<br />
-                          - Project Management<br />
-                          - Programming Basics<br />
-                          - Artificial Intelligence<br />
-                          - Human Resources Management<br />
-                          - Computer Networks<br />
-                          - Advanced programming<br />
+                          - Strategic Management
+                          <br />
+                          - Project Management
+                          <br />
+                          - Programming Basics
+                          <br />
+                          - Artificial Intelligence
+                          <br />
+                          - Human Resources Management
+                          <br />
+                          - Computer Networks
+                          <br />
+                          - Advanced programming
+                          <br />
                           - Algorithm Design <br />
                         </p>
                       </div>
@@ -1304,7 +1431,9 @@ export default class EnglishPage extends Component {
             <div className="section" id="contact">
               <div
                 className="cc-contact-information"
-                style={{ backgroundImage:`url(${require("../../images/staticmap.png")})`  }}
+                style={{
+                  backgroundImage: `url(${require("../../images/staticmap.png")})`
+                }}
               >
                 <div className="container">
                   <div className="cc-contact">
@@ -1425,25 +1554,44 @@ export default class EnglishPage extends Component {
         </div>
         <footer className="footer">
           <div className="container text-center">
-            <a className="cc-facebook btn btn-link" href="https://www.facebook.com/shosseyn.alavi">
+            <a
+              className="cc-facebook btn btn-link"
+              href="https://www.facebook.com/shosseyn.alavi"
+            >
               <i className="fa fa-facebook fa-2x " aria-hidden="true" />
             </a>
-            <a className="cc-twitter btn btn-link " href="https://twitter.com/s_hosseyn_a">
+            <a
+              className="cc-twitter btn btn-link "
+              href="https://twitter.com/s_hosseyn_a"
+            >
               <i className="fa fa-twitter fa-2x " aria-hidden="true" />
             </a>
-            <a className="cc-linkedin btn btn-link" href="https://www.linkedin.com/in/hosseyn-alavi/">
+            <a
+              className="cc-linkedin btn btn-link"
+              href="https://www.linkedin.com/in/hosseyn-alavi/"
+            >
               <i className="fa fa-linkedin fa-2x" aria-hidden="true" />
             </a>
-            <a className="cc-instagram btn btn-link" href="https://www.instagram.com/hosseyn298/">
+            <a
+              className="cc-instagram btn btn-link"
+              href="https://www.instagram.com/hosseyn298/"
+            >
               <i className="fa fa-instagram fa-2x " aria-hidden="true" />
             </a>
           </div>
           <div className="h4 title text-center">Hosseyn Alavi</div>
           <div className="text-center text-muted">
-            <p>&copy; Creative CV. All rights reserved.<br />Design - <a className="credit" href="https://templateflip.com">TemplateFlip</a></p>
+            <p>
+              &copy; Creative CV. All rights reserved.
+              <br />
+              Design -{" "}
+              <a className="credit" href="https://templateflip.com">
+                TemplateFlip
+              </a>
+            </p>
           </div>
         </footer>
       </div>
-    )
+    );
   }
 }

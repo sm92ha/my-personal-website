@@ -725,7 +725,43 @@ export default class PerianPage extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-experience-header fa-font">
-                        <p>تیر 1396 - حال حاضر</p>
+                        <p>شهریور 1398 - حال حاضر </p>
+                        <div className="h5">
+                          <a
+                            style={{ color: "white" }}
+                            href="http://www.iliatc.com/"
+                          >
+                           آموزشگاه کامپیوتر ایلیا
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="col-md-9"
+                      data-aos="fade-left"
+                      data-aos-offset="50"
+                      data-aos-duration="500"
+                    >
+                      <div className="card-body fa-font">
+                        <div className="h5">مشاور و مدرس ری اکت</div>
+                        <p>
+                         آموزش و مشاوره توسعه فرانت اند بر محور کتابخوانه ReactJs <br />
+                         آموزش از مقدماتی تا پیشرفته
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="row">
+                    <div
+                      className="col-md-3 bg-primary"
+                      data-aos="fade-right"
+                      data-aos-offset="50"
+                      data-aos-duration="500"
+                    >
+                      <div className="card-body cc-experience-header fa-font">
+                        <p>تیر 1396 - شهریور 1398</p>
                         <div className="h5">
                           <a
                             style={{ color: "white" }}
